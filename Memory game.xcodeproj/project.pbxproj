@@ -13,6 +13,8 @@
 		8470CAA11C8C5C0900E522FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8470CAA01C8C5C0900E522FE /* Assets.xcassets */; };
 		8470CAA41C8C5C0900E522FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8470CAA21C8C5C0900E522FE /* LaunchScreen.storyboard */; };
 		8470CAAF1C8C5C0900E522FE /* Memory_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470CAAE1C8C5C0900E522FE /* Memory_gameTests.swift */; };
+		8470CABA1C8C5FD800E522FE /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470CAB91C8C5FD800E522FE /* CollectionViewCell.swift */; };
+		84F84C2D1C9EEB850032F963 /* wallpaper_01221.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84F84C2C1C9EEB850032F963 /* wallpaper_01221.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		8470CAAA1C8C5C0900E522FE /* Memory gameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memory gameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8470CAAE1C8C5C0900E522FE /* Memory_gameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memory_gameTests.swift; sourceTree = "<group>"; };
 		8470CAB01C8C5C0900E522FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8470CAB91C8C5FD800E522FE /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		84F84C2C1C9EEB850032F963 /* wallpaper_01221.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wallpaper_01221.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +81,14 @@
 		8470CA981C8C5C0900E522FE /* Memory game */ = {
 			isa = PBXGroup;
 			children = (
+				84F84C2C1C9EEB850032F963 /* wallpaper_01221.jpg */,
 				8470CA991C8C5C0900E522FE /* AppDelegate.swift */,
 				8470CA9B1C8C5C0900E522FE /* ViewController.swift */,
 				8470CA9D1C8C5C0900E522FE /* Main.storyboard */,
 				8470CAA01C8C5C0900E522FE /* Assets.xcassets */,
 				8470CAA21C8C5C0900E522FE /* LaunchScreen.storyboard */,
 				8470CAA51C8C5C0900E522FE /* Info.plist */,
+				8470CAB91C8C5FD800E522FE /* CollectionViewCell.swift */,
 			);
 			path = "Memory game";
 			sourceTree = "<group>";
@@ -180,6 +186,7 @@
 				8470CAA41C8C5C0900E522FE /* LaunchScreen.storyboard in Resources */,
 				8470CAA11C8C5C0900E522FE /* Assets.xcassets in Resources */,
 				8470CA9F1C8C5C0900E522FE /* Main.storyboard in Resources */,
+				84F84C2D1C9EEB850032F963 /* wallpaper_01221.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +206,7 @@
 			files = (
 				8470CA9C1C8C5C0900E522FE /* ViewController.swift in Sources */,
 				8470CA9A1C8C5C0900E522FE /* AppDelegate.swift in Sources */,
+				8470CABA1C8C5FD800E522FE /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +396,7 @@
 				8470CAB51C8C5C0900E522FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8470CAB61C8C5C0900E522FE /* Build configuration list for PBXNativeTarget "Memory gameTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +405,7 @@
 				8470CAB81C8C5C0900E522FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
